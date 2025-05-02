@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+.addmarg {
+  margin-bottom: 30px;
+}
+
+.about_body {
+  padding-top: 70px; /* Adjust this value based on the height of your navbar */
+}
+
+.contacts_body {
+  background-color: #f4f4f8; /* Light gray background */
+}
+
+.custom-list {
+    list-style: none; /* Removes bullets */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+  }
+  
+  .custom-list li {
+    padding: 5px 0;
+    margin: 0px; /* Adjust spacing between list items */
+  }
+
+  .we_offer.pricing_offer{
+    background: #f4f4f8;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+  }
+
+  .align_center{
+    align-items: center;
+  }
+
+  .blue_back{
+    background-color: #2e277b;
+  }
+
+  .whitetext{
+    color: white;
+  }
+
+  .fit_container{
+    width: 100%; /* Fit the width of the column */
+  height: 100%; /* Fit the height of the column */
+  object-fit: cover;
+  }
+
+  .removepadd{
+    padding: 0px;
+    margin: 0px;
+   
+  }
+
+  .blue_white{
+    background-color: #2e277b;
+    color: white;
+  }
+
+  .imp_facts{
+    background: #2e277b;
+    padding: 50px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    align-items: center;
+   font-size: larger;
+  }
+
+  .padright{
+    padding-right: 10px;
+  }
+
+
+  .horizontal_flex{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+  }
+
+  .carousel-item img {
+    height: 600px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+.margin_top{
+  margin-top: 30px;
+}
+  
+.rt_dtls{
+    display:inline;
+}
+
+.address{
+    display:flex;
+    flex-direction:row;
+    column-gap: 5px;
+    align-items: start;
+}
+
+h6,p{
+    margin: 0px;
+}
+
+.white_bg{
+    background-color: #f4f4f8;
+    
+}
+
+.heading-line::after {
+  content: '';
+  display: block;
+  width: 300px;
+  height: 2px;
+  background-color: #2e277b; /* change to your brand color */
+  margin: 8px auto 10px; /* spacing above the line, center it */
+  box-shadow: #2e277b 0px 0px 5px; /* Optional: adds a shadow effect */
+}
+
+.halign_center {
+  text-align: center; /* Centers the text horizontally */
+}
+
+.logo-back {
+background-image: url("images/newlogo.png"); /* Replace with your image path */
+background-size: cover;      /* Make it cover the entire container */
+background-position: center; /* Center the image */
+background-repeat: no-repeat;/* Don't repeat the image */
+height: 300px;               /* Full screen height */
+
+
+}
+
+.blue-text{
+  color: #2e277b; /* Change to your desired blue color */
+}
+
+.centflex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fheading-line::after {
+  content: '';
+  display: block;
+  width: 300px;
+  height: 2px;
+  background-color: #2e277b; /* change to your brand color */
+  margin: 6px auto 10px; /* spacing above the line, center it */
+  box-shadow: #2e277b 0px 0px 5px; /* Optional: adds a shadow effect */
+}
+
+.logo-size {
+  width: 400px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-height {
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+}
