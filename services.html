@@ -1,77 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <title>Contact Us</title>
-</head>
-<body >
-    <nav class="navbar navbar-expand-lg navbar fixed-top bg-body-tertiary navbar bg-primary" style="background-color: #e3f2fd;" data-bs-theme="light">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img class="logo-size" src="images\newlogo.png" alt="Kazema Logo"/></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacts.html">Contact Us</a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li> -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Taxation Services</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Training and Consultancy</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Finance, Accounting and Auditing</a></li>
-                </ul>
-              </li>
-             
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules\bootstrap\dist\css\bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <title>Our Services</title>
+    <!-- Bootstrap CSS CDN -->
+    <!-- <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  /> -->
+  </head>
+  <body>
+    <div class="container py-5">
+      <h2 class="text-center mb-5">Our Services</h2>
+      <div class="row g-4">
+        <!-- Finance, Accounting & Auditing -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="https://via.placeholder.com/400x200?text=Finance+%26+Auditing"
+              class="card-img-top"
+              alt="Finance, Accounting and Auditing"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Finance, Accounting & Auditing</h5>
+              <p class="card-text">
+                We help you make sense of the numbers. From bookkeeping to
+                audits, we ensure your business stays compliant, organized, and
+                financially strong.
+              </p>
+            </div>
           </div>
         </div>
-      </nav>
-      <div class="margin-top">
 
-    <div class="container mt-5 pt-5 py-5 blue_white rounded-3 shadow-sm">
-        <h1 class="mt-1 halign_center">Contact Us</h1>
-        <p>If you have any questions or inquiries, please fill out the form below:</p>
-        <form action="https://formspree.io/f/yourFormID" method="POST" class="p-4">
-            <div class="form-group mb-3">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+        <!-- Taxation Services -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="https://via.placeholder.com/400x200?text=Taxation+Services"
+              class="card-img-top"
+              alt="Taxation Services"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Taxation Services</h5>
+              <p class="card-text">
+                Say goodbye to tax season stress. We handle planning, filing,
+                and compliance so you can stay focused on what you do best.
+              </p>
             </div>
-            <div class="form-group mb-3">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          </div>
+        </div>
+
+        <!-- Training & Consultancy -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="https://via.placeholder.com/400x200?text=Training+%26+Consultancy"
+              class="card-img-top"
+              alt="Training and Consultancy"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Training & Consultancy</h5>
+              <p class="card-text">
+                We empower your team with expert training and guidance tailored
+                to your business needs—helping you grow smarter and stronger.
+              </p>
             </div>
-            <div class="form-group mb-3">
-                <label for="message">Message</label>
-                <textarea class="form-control" name="message" id="message" rows="4" placeholder="Your Message" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+
     <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
       <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary"> 
        <div class="row"> 
@@ -81,7 +89,7 @@
                <title>Kazema</title> 
                <!-- <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path> </svg> -->
                <!-- <div class=""> -->
-                 <a href="#"><img src="images\newlogo.png"  alt="Kazema Logo"/></a>
+                 <a href="#"><img src="images\logo.png"  alt="Kazema Logo"/></a>
                
                 </a> 
                 <ul class="custom-list removepadd ms-5 vertical_flex list-unstyled small">
@@ -169,9 +177,8 @@
                     </div> 
                    </footer>
          
-       
-    <script src="node_modules\jquery\dist\jquery.js"></script>
-    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.js"></script>
-    
-</body>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

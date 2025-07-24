@@ -6,6 +6,10 @@
   margin-bottom: 30px;
 }
 
+.margin-top{
+  margin-top: 150px;
+}
+
 .about_body {
   padding-top: 70px; /* Adjust this value based on the height of your navbar */
 }
@@ -167,4 +171,9 @@ height: 300px;               /* Full screen height */
   height: 400px;
   object-fit: cover;
   object-position: top;
+}
+
+.removemarg {
+  margin: 0px;
+
 }
