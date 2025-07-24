@@ -177,3 +177,17 @@ height: 300px;               /* Full screen height */
   margin: 0px;
 
 }
+
+.footer-logo {
+  width: 200px;
+  height: 100px;
+}
+
+/* .bg-image {
+  background-image: url('images/newlogo.png');
+  background-position:top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+} */
