@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+  padding-top: 80px;
+}
+
+
 .addmarg {
   margin-bottom: 30px;
 }
@@ -132,7 +137,7 @@ h6,p{
 }
 
 .logo-back {
-background-image: url("images/newlogo.png"); /* Replace with your image path */
+background-image: url("images\newlogo.png"); /* Replace with your image path */
 background-size: cover;      /* Make it cover the entire container */
 background-position: center; /* Center the image */
 background-repeat: no-repeat;/* Don't repeat the image */
@@ -183,8 +188,13 @@ height: 300px;               /* Full screen height */
   height: 100px;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* .bg-image {
-  background-image: url('images/newlogo.png');
+  background-image: url('images\newlogo.png');
   background-position:top center;
   background-size: contain;
   background-repeat: no-repeat;
