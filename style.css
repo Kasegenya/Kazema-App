@@ -141,15 +141,7 @@ body {
   text-align: center; /* Centers the text horizontally */
 }
 
-.logo-back {
-background-image: url("images\newlogo.png"); /* Replace with your image path */
-background-size: cover;      /* Make it cover the entire container */
-background-position: center; /* Center the image */
-background-repeat: no-repeat;/* Don't repeat the image */
-height: 300px;               /* Full screen height */
 
-
-}
 
 .blue-text{
   color: #2e277b; /* Change to your desired blue color */
