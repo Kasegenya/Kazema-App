@@ -8,7 +8,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    padding-top: 180px;
+    padding-top: 110px;
   }
 }
 
@@ -118,7 +118,7 @@ body {
     align-items: start;
 }
 
-h6,p{
+.footer-tags{
     margin: 0px;
 }
 
