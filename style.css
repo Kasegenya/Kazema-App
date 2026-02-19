@@ -6,8 +6,12 @@ body {
   padding-top: 100px;
 }
 
+body.about-body {
+  padding-top: 70px;
+}
+
 @media (max-width: 768px) {
-  body {
+  body,body.about-body{
     padding-top: 110px;
   }
 }
@@ -20,9 +24,6 @@ body {
   margin-top: 150px;
 }
 
-.about_body {
-  padding-top: 70px; /* Adjust this value based on the height of your navbar */
-}
 
 .contacts_body {
   background-color: #f4f4f8; /* Light gray background */
